@@ -1,0 +1,27 @@
+.notcon {
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    //background-size: cover;
+    background-image: url(./404.png);
+    background-color: antiquewhite;
+    .mycon {
+        text-align: center;
+        margin: 0 auto;
+        width: 300px;
+        background: linear-gradient(135deg, #6e8ffbb2, #a777e3);
+        border-radius: 0 4px 0 10px;
+        padding: 10px;
+        box-shadow: #21749bcc 0 0 5px 5px;
+        font-size: 20px;
+        letter-spacing: 5px;
+        font-weight: 800;
+        font-family: -apple-system, BlinkMacSystemFont, SF Pro SC, SF Pro Text, Helvetica Neue, Helvetica, PingFang SC, Segoe UI, Roboto, Hiragino Sans GB, arial, SimSun, sans-serif;
+        &:hover {
+            background: rgba(5, 102, 102, 0.192);
+        }
+        .mylink {
+            text-decoration: none;
+        }
+    }
+}

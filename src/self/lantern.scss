@@ -1,0 +1,76 @@
+$widths: 600px;
+$heights:800px;
+@keyframes myfirst {
+    0% {
+        left: 0;
+    }
+    10% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    30% {
+        left: -$widths*1;
+    }
+    40% {
+        left: -$widths*1;
+    }
+    50% {
+        left: -$widths*2;
+    }
+    60% {
+        left: -$widths*2;
+    }
+    70% {
+        left: -$widths*3;
+    }
+    80% {
+        left: -$widths*3;
+    }
+    90% {
+        left: -$widths*3;
+    }
+    100% {
+        left: -$widths*3;
+    }
+}
+
+.con {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    width: $widths;
+    height: $heights;
+    border-style: ridge;
+    .dong {
+        position: absolute;
+        left: 0;
+        animation: myfirst infinite ease-in-out 4s;
+        display: inline;
+        .img1 {
+            width: $widths;
+            height: $heights;
+            position: absolute;
+            left: 0;
+        }
+        .img2 {
+            width: $widths;
+            height: $heights;
+            position: absolute;
+            left: $widths;
+        }
+        .img3 {
+            width: $widths;
+            height: $heights;
+            position: absolute;
+            left: $widths*2;
+        }
+        .img4 {
+            width: $widths;
+            height: $heights;
+            position: absolute;
+            left: $widths*3;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.mycard {
+    box-sizing: border-box;
+    border-bottom: 4px dashed #a9a9a9;
+    width: 800px;
+    margin-right: 0px;
+    padding: 0;
+    color: rgba(0, 0, 0, .85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: "tnum";
+    position: relative;
+    background: #fff;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    &:hover {
+        border: 6px dashed #a9a9a9;
+        transform: scale(1.08);
+        -webkit-transform: scale(1.15);
+        -moz-transform: scale(1.15);
+        -o-transform: scale(1.15);
+        z-index: 99;
+    }
+    .index {
+        display: block;
+        margin: 0 auto;
+        background-color: aqua;
+        text-align: center;
+        width: 25px;
+        height: 35px;
+        font-weight: 500;
+        font-size: 24px;
+    }
+    .divtop {
+        text-align: center;
+        min-height: 68px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 26px;
+        padding-bottom: 5px;
+        margin-bottom: -6px;
+        color: rgb(26, 218, 208);
+        font-weight: 500;
+        font-size: 30px;
+        overflow: hidden;
+        background: 0 0;
+        border-bottom: 5px solid #f0f0f0;
+        border-radius: 2px 4px 0 0;
+    }
+    .divbottom {
+        font-size: large;
+        padding: 64px;
+    }
+}

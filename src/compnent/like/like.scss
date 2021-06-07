@@ -1,0 +1,21 @@
+.like {
+    display: block;
+    position: fixed;
+    /* font-size: 12px; */
+    font-size: 14px;
+    /* width: 70px; */
+    width: 150px;
+    height: 70px;
+    line-height: 70px;
+    /* color: #fff; */
+    color: #f00;
+    background: #ffd886 url(../img/like.svg) no-repeat center 10px;
+    background-size: 20px;
+    border-radius: 35px;
+    text-align: center;
+    left: calc(50% - 120px);
+    /* top: calc(50% - 60px); */
+    top: calc(50% - 80px);
+    z-index: -1;
+    transform: rotatez(-15deg);
+}
